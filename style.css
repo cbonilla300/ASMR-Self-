@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    height: 100vh;
+    background: #212529;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 80px; */
+    padding: 0px 50px;
+}
+nav h2 {
+    color: #ffb742;
+    font-weight: 600;
+}
+nav ul {
+    display: flex;
+    padding: 20px 0px;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: none;
+}
+nav .hire-me {
+    background-color: #ffb742;
+    padding: 5px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+/* img {
+    background-color: black;
+} */
