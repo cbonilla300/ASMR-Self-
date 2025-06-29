@@ -41,6 +41,31 @@ nav .hire-me {
     border-radius: 8px;
     font-weight: 600;
 }
+main { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* img {
     background-color: black;
 } */
