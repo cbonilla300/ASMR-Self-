@@ -13,7 +13,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     /* height: 80px; */
-    padding: 0px 50px;
+    padding: 10px 50px 0px;
 }
 nav h2 {
     color: #ffb742;
@@ -42,11 +42,100 @@ nav .hire-me {
     font-weight: 600;
 }
 main { 
+    height: 640px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
+    flex-wrap: nowrap;
+    /* margin-top: -10px; */
+    
+}
+main h4 {
+    font-size: 32px;
+    color: #fff;
+    font-weight: 600;
+
+}
+main h4 span {
+    color: #ffb742;
+    text-transform: uppercase;
+    text-decoration: underline ;
+}
+main .aspiration {
+    font-size: 44px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 8px;
+}
+main .future-plans {
+    font-size: 16px;
+    /* width: 40%; */
+    text-align: center;
+    margin-top: 10px;
+    color: #ccc;
+}
+main img {
+    position: relative; 
+    top: 5px;
+    right: 5px;
+    margin: 0px 5px;
+    background-color: #ffb742;
+    border-radius: 50%;
+    padding: .2rem;
+}
+#crown {
+    position: relative;
+    left: 5px;
+}
+#starter {
+    margin-left: 10px;
+}
+main #logo {
+    width: 180px;
+    height: 160px;
+    background-color: black;
+    margin: 80px 0px;
+}
+.experience {
+    /* position: relative;
+    top: 0; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+    margin: -100px 60px 0px;
+}
+.instance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 50px;
+    background-color: #292b2e;
+    padding: 10px  0px;
+    border-radius: 5px;
+}
+.bx-check-shield, .bx-laugh, .bx-check-circle{
+    background-color: whitesmoke;
+    text-align: center;
+}
+i.bx.bx-check-shield::before, i.bx.bx-laugh::before, i.bx.bx-check-circle::before {
+    display: inline-block;
+    scale: 2;
+    background-color: whitesmoke;
+    border-radius: 510%;
+}
+.info h3 {
+    text-align: center;
+    color: #ffb742;
+    font-size: 24px;
+}
+.info p {
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 14px;
 }
 
 
@@ -62,10 +151,3 @@ main {
 
 
 
-
-
-
-
-/* img {
-    background-color: black;
-} */
