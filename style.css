@@ -34,9 +34,11 @@ nav ul li a {
 
 ul li a:hover {
     text-decoration: none;
+    color: #ffb742;
 }
 nav .hire-me {
     background-color: #ffb742;
+    /* box-shadow: -525px 450px 1000px 50px red; */
     padding: 5px 20px;
     border-radius: 8px;
     font-weight: 600;
@@ -109,14 +111,21 @@ main #logo {
 }
 .instance {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
-    gap: 50px;
+    gap: 10px;
+    border: 1px solid #292b2e;
     background-color: #292b2e;
     padding: 10px  0px;
     border-radius: 5px;
 }
+.instance:hover {
+    border-color: #ffb742;
+}
+/* .instance:hover  {
+    background-color: #ffb742;
+} */
 .bx-check-shield, .bx-laugh, .bx-check-circle{
     background-color: whitesmoke;
     text-align: center;
@@ -125,7 +134,10 @@ i.bx.bx-check-shield::before, i.bx.bx-laugh::before, i.bx.bx-check-circle::befor
     display: inline-block;
     scale: 2;
     background-color: whitesmoke;
-    border-radius: 510%;
+    border-radius: 50%;
+}
+i.bx.bxs-chevron-right {
+    scale: 1.5;
 }
 .info h3 {
     text-align: center;
@@ -137,17 +149,119 @@ i.bx.bx-check-shield::before, i.bx.bx-laugh::before, i.bx.bx-check-circle::befor
     font-weight: 600;
     font-size: 14px;
 }
+i.bx.bx-check-shield:hover::before, i.bx.bx-laugh:hover::before, i.bx.bx-check-circle:hover::before {
+    background-color: #ffb742;
+}
+i.bx.bxs-chevron-right:hover::before {
+    color: whitesmoke;
+    
+}
+h5, .about {
+    margin: 0px 60px;
+}
+.about {
+    display: flex;
+    gap: 80px;
+}
+h5 {
+    display: inline-block;
+    border: 1px solid #292b2e;
+    background-color: #292b2e;
+    color: #ffb742;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.about-info {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: justify;
+}
+.me {
+    width: 20%;
+    height: 300px;
+    border-radius: 10px;
+    border-color: #292b2e;
+    margin-bottom: 100px;
+    flex-grow: 1;
+}
+.about-info h3 {
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+.about-info p {
+    color: whitesmoke;
+    font-weight: 200;
+}
+.about-info button {
+    text-align: left;
+    display: inline-block;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background-color: #ffb742;
+    color: #292b2e;
+}
+.skills-container {
+    display: flex;
+    margin: 0px 0px 0px 50px;
+    gap: 100px;
+    
+    
+}
+.skills-left  {
+    /* width: 70%; */
+    padding: 0px 0px 0px 80px;
+    margin-right: 50px;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.skills-left h4 {
+    font-size: 1.5rem;
+    color: #ccc;
+    margin-bottom: 20px;
+    /* padding: 0px 40px; */
+    
+}
+.skills-left p {
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 200;
+    /* text-align: justify; */
+}
+.skills-left button {
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #ffb742;
+   
+}
+.skills-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    padding-right: 50px;
+    margin-right: 50px;
+    height: 100px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skills-right i {
+    flex-grow: 1;
+    font-size: 3.5rem;
+    border: 1px solid #383e45;
+    background-color: #383e45;
+    text-align: center;
+    border-radius: 10px;
+}
+.skills-right i:hover {
+    color: #ffb742;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* .bx.bxl-html5 {
+    
+} */
